@@ -1,0 +1,48 @@
+<!-- 轮播 -->
+<swiper class="top" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" circular="{{circular}}">
+    <block wx:for="{{imgUrls}}">
+        <swiper-item>
+            <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+    </block>
+</swiper>
+<!-- 热门课程 -->
+<view class="hot-lesson">
+    <view class="title-box">
+        <view class="left">
+            <image src="/img/热门@2x.png" />
+            <text>热门课程</text>
+        </view>
+        <navigator class="right">
+            更多
+            <image src="/img/列表箭头@2x.png" />
+        </navigator>
+    </view>
+</view>
+<!-- 底部区域 -->
+<scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+    <block wx:for="{{hotLesson}}">
+        <view style="background-color:{{item.color}}" class="item">
+            <view class="title">{{item.title}}</view>
+            <view class="subTitle">{{item.subTitle}}</view>
+        </view>
+    </block>
+</scroll-view>
+<!-- 视频 -->
+<view>
+    <view class="title-box">
+        <view class="left">
+            <image src="/img/movie@2x.png" />
+            <text>热门视频</text>
+        </view>
+    </view>
+</view>
+<view class="hot-movie">
+    <block wx:for="{{recommendMovies}}">
+    <view class="item">
+        <image src="{{item.path}}"></image>
+        <text class="title">{{item.title}}</text>
+        <text class="seeCount">{{item.seeCount}}人观看</text>
+    </view>
+    </block>
+</view>

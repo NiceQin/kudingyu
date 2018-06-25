@@ -1,0 +1,26 @@
+<view class="top">
+    <text class="title">请完善孩子信息</text>
+    <text class="sub-title">以便为您提供更好的服务</text>
+</view>
+<form  bindsubmit="formSubmit">
+    <view class="input">
+        <view class="cell"><label for="">姓名:</label><input type="text" name="name" placeholder="如小米" /></view>
+        <view class="cell"><label for="">年龄:</label><input type="number" name="age" /></view>
+        <view class="cell"><label for="">性别:</label>
+            <radio-group name="sex">
+                    <radio  />
+                    <label for="">王子</label>
+                    <radio />
+                    <label for="">公主</label>
+            </radio-group>
+        </view>
+        <view class="cell"><label for="">所在地:</label>
+            <picker mode="region" name="location" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                <view class="picker">{{region[0]}}，{{region[1]}}，{{region[2]}}</view>
+            </picker>
+        
+        </view>
+
+    </view>
+    <button form-type="submit">提交</button>
+</form>

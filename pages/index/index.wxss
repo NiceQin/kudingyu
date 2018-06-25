@@ -1,0 +1,94 @@
+/* 轮播 */
+.top .slide-image {
+    width: 672rpx;
+    height: 266rpx;
+    display: block;
+    margin: 26rpx auto;
+    border-radius: 10rpx;
+    box-shadow: 0rpx 21rpx 46rpx rgba(255, 84, 124, 0.47);
+}
+/* hot-lesson */
+.title-box {
+    display: flex;
+    padding: 52rpx 25rpx 34rpx;
+    justify-content: space-between;
+}
+.title-box .left {
+    display: flex;
+    align-items: center;
+}
+.title-box .left image {
+  width: 30rpx;
+  height: 30rpx;
+}
+.title-box .left text {
+  font-size: 26rpx;
+  color: rgba(51, 51, 51, 1);
+}
+.title-box .right {
+  display: flex;
+  align-items: center;
+  font-size: 22rpx;
+  color: rgba(170, 172, 177, 1);
+}
+.title-box .right image {
+  width: 25rpx;
+  height: 25rpx;
+}
+/*  */
+.scroll-view_H {
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0 24rpx;
+}
+.scroll-view_H .item {
+    width: 300rpx;
+    height: 160rpx;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-left: 26rpx;
+    padding-top: 29rpx;
+    margin-right: 18rpx;
+    color: #fff;
+    box-shadow: 7rpx 0rpx 21rpx rgba(67, 153, 249, 0.47);
+    border-radius: 10rpx;
+}
+.scroll-view_H .item .title {
+    font-size: 30rpx;
+    
+}
+.scroll-view_H .item .subTitle {
+    font-size: 20rpx;
+    margin-top: 14rpx;
+}
+/* shipin */
+.hot-movie {
+    display: flex;
+    flex-wrap: wrap;
+}
+.hot-movie .item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-bottom: 30rpx;
+}
+.hot-movie .item image {
+    width:342rpx;
+    height:222rpx;
+}
+.hot-movie .item text {
+    padding: 5rpx 23rpx;
+    display: block;
+    align-self: flex-start;
+}
+.hot-movie .item .title {
+    font-size: 20rpx;
+    color: #666666;
+    line-height: 20rpx;  
+}
+.hot-movie .item .seeCount {
+    font-size: 16rpx;
+    color: #999999; 
+    line-height: 16rpx;   
+}

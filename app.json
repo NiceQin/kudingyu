@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/course/course",
+      "pages/index/index",
+      "pages/login/login",
+      "pages/study/study",
+      "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FF547C",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle":"#FFFFFF"
+  },
+  "tabBar": {
+    "selectedColor": "#FF547C",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/icon-首页@2x.png",
+        "selectedIconPath": "/img/icon-首页-选中@2x.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "课程",
+        "iconPath": "/img/icon-课程@2x.png",
+        "selectedIconPath": "/img/icon-课程-选中@2x.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "学习",
+        "iconPath": "/img/icon-学习@2x.png",
+        "selectedIconPath": "/img/icon-学习-选中@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/icon-我的@2x.png",
+        "selectedIconPath": "/img/icon-我的-选中@2x.png"
+      }
+      
+    ]
+  }
+}
