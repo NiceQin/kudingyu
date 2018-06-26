@@ -1,0 +1,59 @@
+
+<video src="{{currentUrl}}" autoplay="{{true}}" loop="{{true}}" controls="{{true}}" />
+<!--  -->
+<view class="movie-info">
+    <view class="left">
+        <text class="title">{{name}}班视频演示</text>
+        <view class="sub-title">
+            <text>主讲：{{teacher}}</text>|
+            <text>课时：12</text>|
+            <text>{{studyNumber}}人已学习</text>
+        </view>
+    </view>
+    <view class="right">
+        <button  bind:tap="toBuyLesson">关注</button>
+    </view>
+</view>
+<!-- 底部 -->
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content  myweui-tab__content" hidden="{{activeIndex != 0}}">
+                    <view class="content1">
+                        <block wx:for="{{movieList}}">
+                        <view class="item  {{currentUrl==item.url?'highLight':''}}"  bind:tap="changeVideo" data-url="{{item.url}}"> 
+                            <text>0{{index+1}}.{{name+item.subTitle}}</text>
+                            <text>{{item.time}}</text>
+                        </view>
+                        </block>
+                    </view>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+                    <text class="info">{{desc}}</text>
+                </view>
+                <view class="weui-tab__content" hidden="{{activeIndex != 2}}">
+                    <view class="content3">
+                        <block wx:for="{{commentList}}">
+                            <view class="item">
+                                <image src="{{item.icon}}"></image>
+                                <view class="text">
+                                    <text class="title">{{item.name}}</text>
+                                    <text class="sub-title">{{item.info}}</text>
+                                </view>
+                            </view> 
+                        </block>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -8,10 +8,10 @@
         <view class="cell"><label for="">年龄:</label><input type="number" name="age" /></view>
         <view class="cell"><label for="">性别:</label>
             <radio-group name="sex">
-                    <radio  />
-                    <label for="">王子</label>
-                    <radio />
-                    <label for="">公主</label>
+                    <radio value="boy"  />
+                    <label  for="">王子</label>
+                    <radio value="girl" />
+                    <label  for="">公主</label>
             </radio-group>
         </view>
         <view class="cell"><label for="">所在地:</label>

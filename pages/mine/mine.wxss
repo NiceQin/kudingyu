@@ -1,1 +1,42 @@
-/* pages/mine/mine.wxss */
+@import '/style/weui.wxss';
+page {
+    background-color: #F5F7FB;
+}
+.userInfo {
+    height: 387rpx;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userInfo image {
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 90rpx;
+     margin-top: 74rpx;
+}
+.userInfo text {
+    font-size: 28rpx;
+    margin-top: 48rpx;
+}
+.expire {
+    height: 100rpx;
+    padding: 0 52rpx;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-top: 30rpx;
+    align-items: center;
+}
+.expire .left {
+    font-size: 28rpx;
+}
+.expire .right {
+    color: #A2A2A2;
+    font-size: 24rpx;
+}
+.footer {
+    height: 400rpx;
+    background-color: #fff;
+    margin-top: 30rpx;
+}

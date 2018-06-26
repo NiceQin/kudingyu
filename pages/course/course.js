@@ -10,31 +10,36 @@ Page({
         path: "/img/goodLesson (1).png",
         title: "创意DIY班",
         subTitle: "适宜2-3岁的宝宝",
-        isFull: false
+        isFull: false,
+        name: "创意DIY"
       },
       {
         path: "/img/goodLesson (2).png",
         title: "创意美食班",
         subTitle: "适宜2-3岁的宝宝",
-        isFull: true
+        isFull: true,
+        name: "创意美食"
       },
       {
         path: "/img/goodLesson (3).png",
         title: "素描班",
         subTitle: "适宜8岁以上的儿童",
-        isFull: false
+        isFull: false,
+        name: "素描"
       },
       {
         path: "/img/goodLesson (4).png",
         title: "色彩班",
         subTitle: "适宜6岁以上的儿童",
-        isFull: true
+        isFull: true,
+        name: "色彩班"
       },
       {
         path: "/img/goodLesson (5).png",
         title: "速写班",
         subTitle: "适宜8岁以上的儿童",
-        isFull: false
+        isFull: false,
+        name: "速写班"
       }
     ]
   },
@@ -93,5 +98,12 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  toLessonInfo: function (event) {
+   
+    var lessonName = event.currentTarget.dataset.name;
+    wx.navigateTo({
+      url: '/pages/course/lessonInfo/lessonInfo?lessonName=' + lessonName
+    });
   }
 })

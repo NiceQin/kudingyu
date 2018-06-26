@@ -1,12 +1,11 @@
-// pages/mine/mine.js
-var app = getApp();
+// pages/course/buyLesson/buyLesson.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo:{}
+  
   },
 
   /**
@@ -27,12 +26,7 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    // console.log(app);
-    console.log(app.globalData.userInfo);
-    
-    this.setData({
-      userInfo: app.globalData.userInfo
-    })
+  
   },
 
   /**

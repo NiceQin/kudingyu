@@ -1,4 +1,5 @@
 // pages/login/login.js
+var app = getApp();
 Page({
 
   /**
@@ -83,6 +84,8 @@ Page({
             icon: 'success',
             duration: 2000
           })
+          // 将用户信息设置为全局变量
+          app.globalData.userInfo = event.detail.value;
           wx.switchTab({
             url: '/pages/index/index'
           })

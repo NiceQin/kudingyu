@@ -24,13 +24,24 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": 0,
+					"name": "课程详情",
+					"pathName": "pages/course/lessonInfo/lessonInfo",
+					"query": "lessonName=创意DIY"
+				}
+			]
 		}
 	}
 }

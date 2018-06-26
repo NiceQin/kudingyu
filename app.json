@@ -1,10 +1,14 @@
 {
   "pages":[
+    "pages/login/login",
+    "pages/mine/mine",
     "pages/course/course",
+    "pages/course/lessonInfo/lessonInfo",
+    "pages/course/buyLesson/buyLesson",
       "pages/index/index",
-      "pages/login/login",
-      "pages/study/study",
-      "pages/mine/mine"
+      
+      "pages/study/study"
+     
   ],
   "window":{
     "backgroundTextStyle":"light",

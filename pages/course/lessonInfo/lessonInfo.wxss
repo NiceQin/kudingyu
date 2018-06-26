@@ -1,0 +1,155 @@
+@import '/style/weui.wxss';
+video {
+    height: 422rpx;
+    width: 100%;
+}
+/*  */
+.movie-info {
+    height: 194rpx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.movie-info .left {
+
+}
+.movie-info .left .title {
+    font-size: 32rpx;
+    color: #333333;
+}
+.movie-info .left .sub-title {
+    font-size: 20rpx;
+    color: #A2A2A2;
+    width: 412rpx;
+    display: flex;
+    justify-content: space-between;
+}
+.movie-info .right button {
+    width:120rpx;
+    height:50rpx;
+    background:rgba(255, 143, 61, 1);
+    border-radius:10rpx;
+    color: #fff;
+    font-size: 23rpx;
+}
+/* 引入的css */
+page,
+.page,
+.page__bd {
+    height: 573rpx;
+    background-color: #fff;
+}
+
+.page__bd {
+    padding-bottom: 0;
+}
+
+.weui-tab__content {
+    padding-top: 60px;
+    text-align: center;
+}
+
+page {
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+}
+
+/* .page__hd {
+    padding: 40px;
+}
+
+.page__bd {
+    padding-bottom: 40px;
+}
+
+.page__bd_spacing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.page__ft {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.page__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page__desc {
+    margin-top: 5px;
+    color: #888888;
+    text-align: left;
+    font-size: 14px;
+} */
+/* content1 */
+.weui-tab__content {
+    padding-top: 0;
+}
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 48rpx 51rpx 0 46rpx;
+    height: 494rpx;
+}
+.content1 .item {
+    display: flex;
+    justify-content: space-between;
+    color: #A2A2A2;
+    font-size: 22rpx;
+}
+
+.weui-tab__content .info {
+    color: #A9A9A9;
+    font-size: 22rpx;
+    text-align: start;
+}
+.content3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+     padding: 41rpx 0 0 41rpx;
+}
+.content3 .item {
+    display:flex;
+    align-items: center;
+    height: 161rpx;
+    border-bottom: 1px solid #EFEFEF;
+}
+.content3 .item image {
+    width: 100rpx;
+    height: 100rpx;
+    margin-right: 32rpx;
+    border-radius: 50rpx;
+}
+.content3 .item .title {
+    font-size: 29rpx;
+    display: block;
+    text-align: start;
+}
+.content3 .item .sub-title {
+    font-size: 24rpx;
+    color: #A2A2A2;
+    margin-top: 22rpx;
+}
+.weui-navbar {
+    background-color: #fff;
+}
+.weui-bar__item_on {
+    color: #ff547c;
+}
+.weui-navbar__slider {
+    background-color: #ff547c;
+    width: 122rpx;
+    height: 3rpx;
+}
+.weui-navbar__item.weui-bar__item_on {
+    color:#ff547c;
+}
+.content1 .item.highLight text {
+    color: #ff547c;
+}
