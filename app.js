@@ -34,6 +34,6 @@ App({
     })
   },
   globalData: {
-    userInfo: "小仙女"
+    userInfo: "酷酷"
   }
 })

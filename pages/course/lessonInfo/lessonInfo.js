@@ -56,42 +56,42 @@ Page({
       // 评论信息
       commentList: [{
           name: "刘妈妈",
-          icon: "/img/motherL.gif",
+          icon: "/img/01@2x.png",
           info: "宝宝很喜欢呢"
         },
         {
           name: "彭妈妈",
-          icon: "/img/motherP.png",
+          icon: "/img/02@2x.png",
           info: "宝宝吵着还要看"
         },
         {
-          name: "王妈妈",
-          icon: "/img/motherW.gif",
-          info: "不给看还哭"
+          name: "李妈妈",
+          icon: "/img/03@2x.png",
+          info: "不给看就哭"
         },
         {
           name: "王妈妈",
-          icon: "/img/motherW.gif",
+          icon: "/img/04@2x.png",
           info: "不给看还哭"
         },
         {
-          name: "王妈妈",
-          icon: "/img/motherW.gif",
-          info: "不给看还哭"
+          name: "覃妈妈",
+          icon: "/img/goodLesson (1).png",
+          info: "宝宝对这个很感兴趣"
         },
         {
-          name: "王妈妈",
-          icon: "/img/motherW.gif",
-          info: "不给看还哭"
+          name: "黄爸爸",
+          icon: "/img/goodLesson (2).png",
+          info: "让宝宝赢在起跑线"
         },
         {
-          name: "王妈妈",
-          icon: "/img/motherW.gif",
-          info: "不给看还哭"
+          name: "王爸爸",
+          icon: "/img/goodLesson (3).png",
+          info: "酷丁鱼是个不错的课堂"
         },
         {
           name: "张妈妈",
-          icon: "/img/motherZ.png",
+          icon: "/img/01@2x.png",
           info: "我谢谢你啊"
         }
       ],

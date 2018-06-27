@@ -1,2 +1,11 @@
-<!--pages/study/study.wxml-->
-<text>pages/study/study.wxml</text>
+<view class="main">
+    <block wx:for="{{learning}}">
+        <view class="item" >
+            <image src="{{item.src}}"></image>
+            <view class="right">
+                <text class="title">{{item.title}}</text>
+                <text class="sub-title">已学{{item.subtitle}}</text>
+            </view>
+        </view>
+    </block>
+</view>

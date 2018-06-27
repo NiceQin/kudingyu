@@ -1,5 +1,5 @@
 <view class="userInfo">
-    <image src="{{userInfo.sex == 'girl'?'/img/01@2x.png':'/img/02@2x.png'}}"></image>
+    <image src="{{userInfo.sex == 'girl'?'/img/01@2x.png':'/img/boy@2x.png'}}"></image>
     <text>{{userInfo.name}}</text>
 </view>
 <view class="expire">

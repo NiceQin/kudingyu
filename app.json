@@ -1,13 +1,15 @@
 {
   "pages":[
+    
     "pages/login/login",
     "pages/mine/mine",
     "pages/course/course",
     "pages/course/lessonInfo/lessonInfo",
     "pages/course/buyLesson/buyLesson",
-      "pages/index/index",
+    "pages/study/study",
+      "pages/index/index"
       
-      "pages/study/study"
+     
      
   ],
   "window":{

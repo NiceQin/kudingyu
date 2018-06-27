@@ -1,1 +1,32 @@
-/* pages/study/study.wxss */
+.main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 24rpx;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.item {
+    height: 216rpx;
+    display: flex;
+    border-bottom: 1px solid #F2F2F2;
+    align-items: center;
+}
+.item image {
+    width: 218rpx;
+    height: 145rpx;
+    margin-right: 40rpx;
+}
+.item .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 145rpx;
+}
+.item .right .title {
+    font-size: 28rpx;
+    color: #333;
+}
+.item .right .sub-title {
+    font-size: 20rpx;
+    color: #78CC00;
+}
